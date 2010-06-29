@@ -1,0 +1,43 @@
+---
+layout: base
+---
+
+{% if page.next %} 
+    <div class="navtop next">
+    <a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr;
+    </div>
+{% endif %}
+{% if page.previous %} 
+    <div class="navtop previous">
+    &larr; <a rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    </div>
+{% endif %}
+
+<h1 style="clear: both;"><a href='{{ page.url }}'>{{ page.title }}</a></h1>
+
+<div class="date">Posted on {{ page.date | date_to_long_string }}</div>
+
+{{ content }}
+
+<!-- 
+<div id="related">
+  <h3>Related Posts</h3>
+  <ul class="toc">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+-->
+
+{% if page.next %} 
+    <div class="navbottom next">
+    <a rel="next" href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr;
+    </div>
+{% endif %}
+{% if page.previous %} 
+    <div class="navbottom previous">
+    &larr; <a rel="prev" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    </div>
+{% endif %}
+<p style="clear: both;"></p>
