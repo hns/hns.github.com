@@ -40,7 +40,7 @@ missing for Helma, and I feel like I ought to do better this time around.
 
 The tools I'm using for this site are [Jekyll] and [Markdown]. I've been
 blogging in one way or the other since 1998, but I've rarely managed to go
-beyond a two or three paragraphs in length. I find that writing inside a browser
+beyond two or three paragraphs in length. I find that writing inside a browser
 textarea just sucks, especially when using raw HTML links. (This was probably
 made worse by the fact that from the beginning, I used self-coded weblog
 software lacking any drafting functionality at all.) Jekyll and Markdown finally

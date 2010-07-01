@@ -55,6 +55,7 @@ html, body {
     position: absolute;
     bottom: 0.4em;
     right: 0;
+    line-height: 1.35em;
 }
 
 .date {
