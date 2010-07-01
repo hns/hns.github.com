@@ -11,9 +11,6 @@ html, body {
     width: 750px;
     margin: 0 auto;
     background-color: #fff;
-    border-width: 0 1px;
-    border-style: solid;
-    border-color: #acf;
     min-height: 100%;
 }
 
