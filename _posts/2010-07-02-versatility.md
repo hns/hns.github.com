@@ -121,7 +121,7 @@ handling. Let's see how to put these together to do something potentially useful
 The following example combines synchronous and asynchronous request handling in
 the same JSGI handler to something that amounts to basic long polling.
 
-If the app recieves a request without a query parameter named `msg`, it returns
+If the app receives a request without a query parameter named `msg`, it returns
 a promise, thus detaching the thread from the request while keeping the
 connection open. The promise is registered in an array. If the app receives
 a request with a `msg` query string parameter, its value is broadcasted to all
