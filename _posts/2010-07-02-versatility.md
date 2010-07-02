@@ -157,7 +157,7 @@ One thing that may need explanation here is the use of the `Request` function
 imported from [ringo/webapp/request]. The JSGI request by itself
 only provides minimal functionality. The Request function takes a JSGI request
 and adds some useful features to it, such as support for parameter and file
-upload parsing and cookie handling.
+upload parsing, cookie handling, and session support.
 
 Previously (with JSGI 0.2), `Request` was an actual constructor that returned a
 wrapper around the JSGI request object. Since we switched to JSGI 0.3,
