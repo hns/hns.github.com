@@ -59,6 +59,9 @@ make editing web site content bearable for me!
 [jekyll]: http://github.com/mojombo/jekyll
 [markdown]: http://daringfireball.net/projects/markdown/
 
+In case you're interested, you can gaze at the site's source code at
+<http://github.com/hns/hns.github.com>
+
 # About the Beetle
 
 The animal on top of this page is a [Japanese Rhinoceros Beetle][rhino beetle]
