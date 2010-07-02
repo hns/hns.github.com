@@ -34,6 +34,13 @@ I usually prefer writing JS over Java, although I still love working on the
 
 [jvm]: http://en.wikipedia.org/wiki/Java_Virtual_Machine
 
+I'm also a committer on the [Mozilla Rhino] project, which is the the JavaScript
+engine used by Ringo, and have a few experimental [Rhino branches][rhino-opt]
+over at github.
+
+[mozilla rhino]: http://www.mozilla.org/rhino/
+[rhino-opt]: http://wiki.github.com/hns/rhino-opt/
+
 # About this Site
 
 My goal with this site is to provide detailed, close-up descriptions of specific
