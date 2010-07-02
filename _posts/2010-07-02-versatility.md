@@ -3,8 +3,8 @@ layout: post
 title: Versatile Web Serving
 ---
 
-In this first installment on this weblog, I'll take a look at basic web serving
-with [Ringo].
+In this first installment on this weblog, I'll take a look at synchronous and
+asynchronous web serving with [RingoJS].
 
 When talking about interaction with Java libraries, most
 people will think of it as a convenience thing, like in "you don't have to
@@ -30,7 +30,7 @@ on an Amazon EC2 instance once you reach 8000 messages per second in a 20,000
 client setup. (Cometd support is available in Ringo as [a
 package][ringo-cometd].)
 
-[ringo]: http://ringojs.org/
+[ringojs]: http://ringojs.org/
 [jetty]: http://wiki.eclipse.org/Jetty/
 [cometd]: http://cometd.org/
 [jetty-benchmark]: http://blogs.webtide.com/gregw/entry/cometd_2_throughput_vs_latency
