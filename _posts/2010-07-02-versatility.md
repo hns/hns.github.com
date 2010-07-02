@@ -76,7 +76,7 @@ them and use Ringo as a plain JavaScript engine. We're currently considering
 swapping out features into their own packages to fix this misconception.
 After all, it seems many people insist on inventing their own wheels.)
 
-## Kicking into Asynchronous Mode
+## Going Asynchronous
 
 To handle a HTTP request asynchronously, all we have to do is return a promise.
 Ringo implements the CommonJS [Promise/A][promise api] proposal, so you could in
