@@ -7,7 +7,7 @@ title: About
 
 <img src="/images/hv.jpg" style="float: right; margin-left: 2em;">
 
-My name is Hannes Wallnöfer. You can reach me at <hannesw@gmail.com>.
+My name is Hannes Wallnöfer. You can reach me at <mailto:hannesw@gmail.com>.
 
 I grew up in a [small town][meran] in northern Italy and then spent most of my
 adult years in [Vienna], Austria. Currently I live in a village in the very
