@@ -60,7 +60,7 @@ make editing web site content bearable for me!
 [markdown]: http://daringfireball.net/projects/markdown/
 
 In case you're interested, you can gaze at the site's source code at
-<http://github.com/hns/hns.github.com>
+<http://github.com/hns/hns.github.com>.
 
 # About the Beetle
 
