@@ -167,5 +167,5 @@ confusing naming and usage.
 [ringo/webapp/request]: http://ringojs.org/api/master/ringo/webapp/request
 
 I hope you enjoyed this installment on Ringo web serving. If you did consider
-subscribing to the [feed](/atom.xml) for future updates!
+subscribing to the [news feed](/atom.xml) for future updates!
 
