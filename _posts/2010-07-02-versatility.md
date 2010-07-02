@@ -26,7 +26,7 @@ scalable long polling and comet.
 
 And it's very good at it. A [recent benchmark][jetty-benchmark] done by Jetty
 and [CometD] authors shows how Cometd latency only rises beyond 100 milliseconds
-on an Amazon EC2 instance when you reach 8000 messages per second in a 20,000
+on an Amazon EC2 instance once you reach 8000 messages per second in a 20,000
 client setup. (Cometd support is available in Ringo as [a
 package][ringo-cometd].)
 
@@ -38,9 +38,9 @@ package][ringo-cometd].)
 
 ## The Basics: JSGI
 
-Let's look at the default synchronous case first. At its simplest, Ringo
-implements [JSGI 0.3], which is basically [JSGI 0.2] with names that are more
-adherent to JavaScript naming conventions.
+Let's look at the default synchronous case first. Ringo implements [JSGI 0.3],
+which is basically [JSGI 0.2] with names that are more adherent to JavaScript
+naming conventions.
 
 A simple hello-world JSGI app in Ringo might look like this:
 
@@ -118,14 +118,14 @@ handling. Let's see how to put these together to do something potentially useful
 
 ## Putting it all together
 
-The following example combines synchronous and asynchronous request handling in
-the same JSGI handler to something that amounts to basic long polling.
+The following example combines synchronous and asynchronous request handling
+to something that amounts to a basic long polling implementation.
 
 If the app receives a request without a query parameter named `msg`, it returns
 a promise, thus detaching the thread from the request while keeping the
 connection open. The promise is registered in an array. If the app receives
 a request with a `msg` query string parameter, its value is broadcasted to all
-waiting connections.
+waiting connections and the array is cleared.
 
 This is how it's implemented:
 
