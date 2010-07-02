@@ -114,7 +114,7 @@ require("ringo/httpserver").Server({
 {% endhighlight %}
 
 So we've seen how to do basic synchronous and asynchronous request
-handling. Let's see how to put these together to do something potentially useful.
+handling. Let's put the two together to do something potentially useful.
 
 ## Putting it all together
 
