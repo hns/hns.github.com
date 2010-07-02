@@ -3,6 +3,9 @@ layout: post
 title: Versatile Web Serving
 ---
 
+In this first installment on this weblog, I'll take a look at basic web serving
+with [Ringo].
+
 When talking about interaction with Java libraries, most
 people will think of it as a convenience thing, like in "you don't have to
 reimplement SMTP in order to send emails". And while that's also true, there's
@@ -15,17 +18,19 @@ Jetty may look just like a plain servlet-compliant web server on first view, it
 is actually a hybrid beast that will operate in synchronous and asynchronous
 mode at the same time, in the same server.
 
-On the flick of a switch, Jetty lets
-you detach the current thread from a request and kick into asynchronous mode.
-The request can then be handled by some other event, in some other thread. Or it
-can just linger around and time out. All without sitting on a thread. There you
-have it, instant scalable long polling and comet.
+On the flick of a switch, Jetty allows you to you detach the current thread from
+a request and kick into asynchronous mode. The request can then be handled by
+some other event, in some other thread. Or it can just linger around and time
+out - all without blocking on a thread or process. There you have it, instant
+scalable long polling and comet.
 
-And it's very good at it. A [recent benchmark][jetty-benchmark] done by
-Jetty and [CometD] authors shows how Cometd latency only rises beyond 100
-milliseconds when you reach 8000 messages per second in a 20,000 client setup.
-(Cometd support is available in Ringo as [a package][ringo-cometd].)
+And it's very good at it. A [recent benchmark][jetty-benchmark] done by Jetty
+and [CometD] authors shows how Cometd latency only rises beyond 100 milliseconds
+on an Amazon EC2 instance when you reach 8000 messages per second in a 20,000
+client setup. (Cometd support is available in Ringo as [a
+package][ringo-cometd].)
 
+[ringo]: http://ringojs.org/
 [jetty]: http://wiki.eclipse.org/Jetty/
 [cometd]: http://cometd.org/
 [jetty-benchmark]: http://blogs.webtide.com/gregw/entry/cometd_2_throughput_vs_latency
@@ -111,9 +116,10 @@ require("ringo/httpserver").Server({
 So we've seen how to do basic synchronous and asynchronous request
 handling. Let's see how to put these together to do something potentially useful.
 
-## Ping and Pong
+## Putting it all together
 
-The following is an example that mixes sync/async in the same JSGI handler.
+The following example combines synchronous and asynchronous request handling in
+the same JSGI handler to something that amounts to basic long polling.
 
 If the app recieves a request without a query parameter named `msg`, it returns
 a promise, thus detaching the thread from the request while keeping the
@@ -161,11 +167,10 @@ upload parsing, cookie handling, and session support.
 
 Previously (with JSGI 0.2), `Request` was an actual constructor that returned a
 wrapper around the JSGI request object. Since we switched to JSGI 0.3,
-it just enhances the existing JSGI request, which explains its potentially
-confusing naming and usage.
+it just enhances the existing JSGI request.
 
 [ringo/webapp/request]: http://ringojs.org/api/master/ringo/webapp/request
 
-I hope you enjoyed this installment on Ringo web serving. If you did consider
-subscribing to the [news feed](/atom.xml) for future updates!
+I hope you enjoyed this introduction to web serving with Ringo. If you did
+consider subscribing to the [news feed](/atom.xml) for future updates!
 
