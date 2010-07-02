@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Versatile Web Serving
+title: Versatile Web Serving with RingoJS
 ---
 
 In this first installment on this weblog, I'll take a look at synchronous and
