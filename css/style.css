@@ -90,8 +90,8 @@ a:active {
     text-decoration: underline;
 }
 
-h1 {
-    font-weight: bold; 
+h1, h2, h3, h4 {
+    font-weight: normal;
 }
 
 pre {
@@ -100,6 +100,10 @@ pre {
     padding: 0.5em;
     overflow: auto;
     line-height: 1.2em;
+}
+
+p code {
+    font-weight: bold;
 }
 
 ul.toc {
