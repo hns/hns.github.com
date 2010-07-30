@@ -1,9 +1,12 @@
 html, body {
     font-family: sans-serif;
-    line-height: 1.4em;
     background-color: #aab;
     margin: 0;
     height: 100%;
+}
+
+p {
+    line-height: 1.4em;
 }
 
 .wrap {
