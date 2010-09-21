@@ -32,7 +32,7 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,327.6 L81.6,327.6 M563.0,327.6 L554.8,327.6 '></path>
-	<g transform="translate(65.8,331.7)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,331.7)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 0</tspan>
 		</text>
 	</g>
@@ -42,7 +42,7 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,283.1 L81.6,283.1 M563.0,283.1 L554.8,283.1 '></path>
-	<g transform="translate(65.8,287.2)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,287.2)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 10</tspan>
 		</text>
 	</g>
@@ -52,7 +52,7 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,238.6 L81.6,238.6 M563.0,238.6 L554.8,238.6 '></path>
-	<g transform="translate(65.8,242.7)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,242.7)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 20</tspan>
 		</text>
 	</g>
@@ -62,7 +62,7 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,194.1 L81.6,194.1 M563.0,194.1 L554.8,194.1 '></path>
-	<g transform="translate(65.8,198.2)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,198.2)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 30</tspan>
 		</text>
 	</g>
@@ -72,7 +72,7 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,149.6 L81.6,149.6 M563.0,149.6 L554.8,149.6 '></path>
-	<g transform="translate(65.8,153.7)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,153.7)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 40</tspan>
 		</text>
 	</g>
@@ -82,7 +82,7 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,105.1 L81.6,105.1 M563.0,105.1 L554.8,105.1 '></path>
-	<g transform="translate(65.8,109.2)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,109.2)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 50</tspan>
 		</text>
 	</g>
@@ -92,75 +92,75 @@
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<path  d='M73.4,60.6 L81.6,60.6 M563.0,60.6 L554.8,60.6 '></path>
-	<g transform="translate(65.8,64.7)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(65.8,64.7)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan> 60</tspan>
 		</text>
 	</g>
 	<path  d='M73.4,327.6 L73.4,319.4 M73.4,60.6 L73.4,68.8 '></path>
-	<g transform="translate(73.4,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(73.4,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 0</tspan>
 		</text>
 	</g>
 	<path  d='M122.4,327.6 L122.4,319.4 M122.4,60.6 L122.4,68.8 '></path>
-	<g transform="translate(122.4,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(122.4,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 5000</tspan>
 		</text>
 	</g>
 	<path  d='M171.3,327.6 L171.3,319.4 M171.3,60.6 L171.3,68.8 '></path>
-	<g transform="translate(171.3,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(171.3,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 10000</tspan>
 		</text>
 	</g>
 	<path  d='M220.3,327.6 L220.3,319.4 M220.3,60.6 L220.3,68.8 '></path>
-	<g transform="translate(220.3,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(220.3,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 15000</tspan>
 		</text>
 	</g>
 	<path  d='M269.2,327.6 L269.2,319.4 M269.2,60.6 L269.2,68.8 '></path>
-	<g transform="translate(269.2,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(269.2,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 20000</tspan>
 		</text>
 	</g>
 	<path  d='M318.2,327.6 L318.2,319.4 M318.2,60.6 L318.2,68.8 '></path>
-	<g transform="translate(318.2,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(318.2,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 25000</tspan>
 		</text>
 	</g>
 	<path  d='M367.2,327.6 L367.2,319.4 M367.2,60.6 L367.2,68.8 '></path>
-	<g transform="translate(367.2,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(367.2,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 30000</tspan>
 		</text>
 	</g>
 	<path  d='M416.1,327.6 L416.1,319.4 M416.1,60.6 L416.1,68.8 '></path>
-	<g transform="translate(416.1,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(416.1,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 35000</tspan>
 		</text>
 	</g>
 	<path  d='M465.1,327.6 L465.1,319.4 M465.1,60.6 L465.1,68.8 '></path>
-	<g transform="translate(465.1,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(465.1,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 40000</tspan>
 		</text>
 	</g>
 	<path  d='M514.0,327.6 L514.0,319.4 M514.0,60.6 L514.0,68.8 '></path>
-	<g transform="translate(514.0,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(514.0,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 45000</tspan>
 		</text>
 	</g>
 	<path  d='M563.0,327.6 L563.0,319.4 M563.0,60.6 L563.0,68.8 '></path>
-	<g transform="translate(563.0,348.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(563.0,348.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan> 50000</tspan>
 		</text>
 	</g>
 	<path  d='M73.4,60.6 L73.4,327.6 L563.0,327.6 L563.0,60.6 L73.4,60.6 Z '></path>
-	<g transform="translate(31.3,194.1) rotate(-90)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(31.3,194.1) rotate(-90)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan>response time (ms)</tspan>
 		</text>
 	</g>
-	<g transform="translate(318.2,372.7)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(318.2,372.7)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan>requests</tspan>
 		</text>
 	</g>
-	<g transform="translate(318.2,40.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:middle">
+	<g transform="translate(318.2,40.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:middle">
 		<text><tspan>50k string allocation/request (-n 50000 -c 50)</tspan>
 		</text>
 	</g>
@@ -168,7 +168,7 @@
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<g transform="translate(119.0,81.1)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(119.0,81.1)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan>node</tspan>
 		</text>
 	</g>
@@ -191,7 +191,7 @@
 <g style="fill:none; color:green; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
-	<g transform="translate(119.0,97.5)" style="stroke:none; fill:black; font-family:Helvetica; font-size:11.00pt; text-anchor:end">
+	<g transform="translate(119.0,97.5)" style="stroke:none; fill:black; font-family:Sans; font-size:11.00pt; text-anchor:end">
 		<text><tspan>ringo</tspan>
 		</text>
 	</g>
