@@ -47,7 +47,7 @@ So what does this benchmark measure? I think it's mostly about how well the
 embedding code (Node and Ringo) blends with the underlying virtual machine
 (V8 and JVM, respectively) to create an efficient server-side runtime.
 Virtual machines are tuned for particular scenarios.
-The JVM strength has been on the server side for many
+The JVM's strength has been on the server side for many
 years, while V8's home is definitely [the client][v8-memlimit].
 We'll see how that turns out in numbers.
 
