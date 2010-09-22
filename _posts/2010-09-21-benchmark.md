@@ -39,9 +39,9 @@ performance as well. Granted, Node has plenty of raw execution speed. [Rhino], t
 JavaScript engine we're using, is worlds slower then V8, and the only way we
 can keep up (and the benchmark shows we can) is by writing performance
 critical code in Java (or Scala, or any other 'fast' JVM language). It
-helps that interoperability between JS and Java is dead simple and there's tons
-of useful Java libraries out there, but yes, Rhino's relative slowness is
-one of our sore points.
+helps that interoperability between JS and Java is [dead simple][scripting-java]
+and there's tons of useful Java libraries out there, but yes, Rhino's relative
+slowness is one of our sore points.
 
 So what does this benchmark measure? I think it's mostly about how well the
 embedding code (Node and Ringo) blends with the underlying virtual machine
@@ -66,10 +66,10 @@ snapshot seems to have problems with keepalive so I disabled it.
 ![benchmark result graph](/images/benchmark/no-alloc.png)
 
 This benchmark is our reference point for the other benchmarks, which are based
-on it. Note how response times are evenly distributed for Node, while they are
-almost constant for Ringo. This is a result of Node's single-threaded
-versus Ringo's multi-threaded request handling, and it will become even more
-noticable in the following benchmarks.
+on it. Note how response times are spread across the range for Node,
+while they are almost constant for Ringo. This is a result of Node's
+single-threaded versus Ringo's multi-threaded request handling, and it will
+become even more noticable in the following benchmarks.
 
 My next move was to do some amount of object allocation. Object allocation and
 collection is a bottleneck in many high-traffic web applications. Evan
@@ -115,7 +115,7 @@ white thing.
 I think the big impact buffer and string allocation has on Node performance
 is due to design decisions in Node (for buffers) and V8 (for strings and
 memory management/garbage collection in general). I don't know Node well enough
-to say. Maybe someone in the know will chime in and give as a clue.
+to say. Maybe someone in the know will chime in and provide some clue.
 
 If you're interested in server-side JavaScript (and you should!) then take
 your time and look at different platforms. Many people sneer at the JVM for
@@ -154,6 +154,7 @@ for Ringo.
 [jvm]: http://en.wikipedia.org/wiki/Java_Virtual_Machine
 [jsconf.eu]: http://jsconf.eu/2010/
 [ringo-versatile]: /2010/07/02/versatility.html
+[scripting-java]: http://www.mozilla.org/rhino/ScriptingJava.html
 [ringo-async]: http://ringojs.org/api/master/ringo/webapp/async/index.html
 [ringo-websocket]: http://ringojs.org/api/master/ringo/webapp/websocket/index.html
 [al3x-node]: http://al3x.net/2010/07/27/node.html
