@@ -62,11 +62,13 @@ Node outperforms Ringo quite clearly in this benchmark, serving `7335` requests
 per second compared to Ringo's `4271`. Enabling HTTP keepalive would have
 boosted Ringo's performance to be on par with Node, but the way keepalive is
 implemented in Apache Bench does not fare well with Node so I disabled it.
+This benchmark is our reference point for the other benchmarks, which are based
+on it.
 
 ![benchmark result graph](/images/benchmark/no-alloc.png)
 
-This benchmark is our reference point for the other benchmarks, which are based
-on it. Note how response times are spread across the range for Node,
+The graph above shows the distribution of response times across all 50,000
+requests made. Note how response times are spread across the range for Node,
 while they are almost constant for Ringo. This is a result of Node's
 single-threaded versus Ringo's multi-threaded request handling, and it will
 become even more noticable in the following benchmarks.
@@ -74,7 +76,7 @@ become even more noticable in the following benchmarks.
 My next move was to do some amount of object allocation. Object allocation and
 collection is a bottleneck in many high-traffic web applications. Evan
 Weaver [reported a year ago][twitter-gc] that Twitter spends as much as 20%
-of front-end CPU time on garbage collection, with staggering 67,500 objects
+of front-end CPU time on garbage collection, with a staggering 67,500 objects
 allocated per website request.
 
 The easiest way to allocate memory is to create binary buffers, so I changed the
