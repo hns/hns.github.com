@@ -36,7 +36,7 @@ magically solve all of these problems.
 
 Maybe then, like with scaling, there may be different kinds of
 performance as well. Granted, Node has plenty of raw execution speed. [Rhino], the
-JavaScript engine we're using, is worlds slower then V8, and the only way we
+JavaScript engine we're using, is worlds slower than V8, and the only way we
 can keep up (and the benchmark shows we can) is by writing performance
 critical code in Java (or Scala, or any other 'fast' JVM language). It
 helps that interoperability between JS and Java is [dead simple][scripting-java]
