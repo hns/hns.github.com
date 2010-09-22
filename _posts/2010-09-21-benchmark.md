@@ -60,8 +60,8 @@ The [first part of the benchmark][bench1] is pretty straightforward.
 It's a hello-world HTTP benchmark, but with a slightly larger (1 kB) response.
 Node outperforms Ringo quite clearly in this benchmark, serving `7335` requests
 per second compared to Ringo's `4271`. Enabling HTTP keepalive would have
-boosted Ringo's performance to be on par with Node, but the current Node
-snapshot seems to have problems with keepalive so I disabled it.
+boosted Ringo's performance to be on par with Node, but the way keepalive is
+implemented in Apache Bench does not fare well with Node so I disabled it.
 
 ![benchmark result graph](/images/benchmark/no-alloc.png)
 
