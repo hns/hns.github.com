@@ -4,7 +4,8 @@ title: Home
 ---
 
 <div class="feedicon">
-<a href="/atom.xml"><img src="/images/feedicon.png" width="32" height="32" class="logo"></a>
+<a href="http://twitter.com/hannesw"><img src="/images/twittericon.png" width="36" height="36" class="logo"></a>
+<a href="/atom.xml"><img src="/images/feedicon.png" width="34" height="34" class="logo"></a>
 </div>
 
 # Posts
