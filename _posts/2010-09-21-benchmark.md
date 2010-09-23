@@ -114,15 +114,18 @@ those you haven't written and run yourself. Still, I think if there's something
 to take away from this benchmark, it's that performance is not a black and
 white thing.
 
-I think the big impact buffer and string allocation has on Node performance
-is due to design decisions in Node (for buffers) and V8 (for strings and
-memory management/garbage collection in general). I don't know Node well enough
-to say. Maybe someone in the know will chime in and provide some clue.
+There are two explanations I can think of for the big impact buffer and string
+allocation has on Node. One is that V8's memory management and garbage collection
+just is not built for the turnover rate tested in this benchmark. The other is
+that Node may have made design decision that optimize for specific things like
+direct kernel access to buffers, causing trade-offs in other areas. It's quite
+possible that it's a combination of things. Maybe someone who knows Node's
+internals better than I do will chime in and provide some clue.
 
-If you're interested in server-side JavaScript (and you should!) then take
-your time and look at different platforms. Many people sneer at the JVM for
-being a memory hog, and they're right. But sometimes, on the server, using
-the memory that's available (and using it well) can be a virtue.
+The JVM, on the other hand, proves to be solid platform for server applications
+with high memory turnover. Many people sneer at the JVM for its large memory
+footprint, and they have a point. But sometimes, on the server, using the
+memory that's available (and using it well) can be a virtue.
 
 Similarly, Rhino has not the best reputation among the JavaScript crowd.
 It's true that modern browser JS engines have left Rhino behind, and that's no
