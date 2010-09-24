@@ -14,7 +14,7 @@ layout: base
 {% endif %}
 
 <h1 style="clear: both;"><a href='{{ page.url }}'>{{ page.title }}</a></h1>
-
+<div style="font-style:italic;">{{ page.subtitle }}</div>
 <div class="date">Posted on {{ page.date | date_to_long_string }}</div>
 
 {{ content }}

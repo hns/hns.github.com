@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Runtime Values: A Ringo/Node Benchmark"
+title: "RingoJS vs. Node.js: Runtime Values"
+subtitle: "Can V8 keep up with the JVM on the server side?"
 ---
 
 As the main developer of a [server-side JavaScript platform][ringojs] in 2010,
