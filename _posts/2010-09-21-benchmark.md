@@ -137,8 +137,9 @@ when they try it. You might be, too!
 
 ## The Fine Print <a name="fineprint"> </a>
 
-The code for the benchmark is available [on github][benchmark]. I ran
-the benchmark on my ThinkPad T61 running 32-bit Ubuntu 10.4 on a 2.4 GHz
+The code for the benchmark is available [on github][benchmark]. There's also
+[a tarball][results] with the raw results. I ran the benchmark on
+my ThinkPad T61 running 32-bit Ubuntu 10.4 on a 2.4 GHz
 Core2 Duo processor. For Ringo, I used the server HotSpot VM which (I think)
 is the default on Linux. If you are using another VM, your results will likely
 differ. The usual disclaimers apply.
@@ -170,4 +171,4 @@ for Ringo.
 [bench3]: http://github.com/hns/ringo-node-benchmark/tree/master/string-alloc/
 [twitter-gc]: http://blog.evanweaver.com/articles/2009/10/21/object-allocations-on-the-web/
 [benchmark]: http://github.com/hns/ringo-node-benchmark
-
+[results]: /benchmarks/ringo-node-results.tgz
