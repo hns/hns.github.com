@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "RingoJS vs. Node.js: Runtime Values"
-subtitle: "Can V8 keep up with the JVM on the server side?"
 ---
 
 As the main developer of a [server-side JavaScript platform][ringojs] in 2010,
@@ -172,3 +171,4 @@ for Ringo.
 [twitter-gc]: http://blog.evanweaver.com/articles/2009/10/21/object-allocations-on-the-web/
 [benchmark]: http://github.com/hns/ringo-node-benchmark
 [results]: /benchmarks/ringo-node-results.tgz
+
