@@ -10,8 +10,9 @@ exports.app = function(req) {
     if (strings.endsWith(path, "/")) path += "index.html";
     var resource = getResource("./_site" + path);
     if (resource.exists()) {
-        if (strings.endsWith(path, ".html")) {
-            subprocess.system("jekyll", {dir: module.directory});
+        if (strings.endsWith(path, ".html") &&
+                subprocess.system("jekyll", {dir: module.directory})) {
+            throw new Error("Error rendering site");;
         }
         return response.static(resource);
     }
