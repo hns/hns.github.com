@@ -8,7 +8,7 @@ title: Home
 <a href="/atom.xml"><img src="/images/feedicon.png" width="34" height="34" class="logo"></a>
 </div>
 
-# Posts
+# Blog Posts
 
 <ul class="toc">
 {% for page in site.posts %}
@@ -17,3 +17,11 @@ title: Home
 {% endfor %}
 </ul>
 
+# Slides
+
+<ul class="toc">
+ <li>DevConf.ru 2011:
+    <a href="/slides/devconf-ringojs.pdf">RingoJS: Server-side JavaScript on the JVM</a> (<a href="/slides/devconf-ringojs-samples.zip">code samples</a>)</li>
+ <li>FOSDEM 2011:
+    <a href="/slides/fosdem-js-jvm.pdf">Rhino and RingoJS: JavaScript on the JVM</a></li>
+</ul>
