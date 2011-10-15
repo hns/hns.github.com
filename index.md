@@ -21,7 +21,7 @@ title: Home
 
 <ul class="toc">
  <li>Wakanday 2011:
-    <a href="/slides/wakanday.pdf">A fresh approach to (server-side) concurrency in JavaScript</a></li>
+    <a href="/slides/wakanday.pdf">A fresh approach to concurrency in (server-side) JavaScript</a></li>
  <li>DevConf.ru 2011:
     <a href="/slides/devconf-ringojs.pdf">RingoJS: Server-side JavaScript on the JVM</a> (<a href="/slides/devconf-ringojs-samples.zip">code samples</a>)</li>
  <li>FOSDEM 2011:
