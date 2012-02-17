@@ -20,6 +20,9 @@ title: Home
 # Slides
 
 <ul class="toc">
+ <li>HelsinkiJS February 2012:
+    <a href="/slides/helsinkijs-stick.pdf">Stick: a modular JSGI middleware composition toolkit
+</a></li>
  <li>Wakanday 2011:
     <a href="/slides/wakanday.pdf">A fresh approach to concurrency in (server-side) JavaScript</a></li>
  <li>DevConf.ru 2011:
