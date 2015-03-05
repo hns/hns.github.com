@@ -49,7 +49,7 @@ public class PersistentClassCacheDemo {
         for (int i = 0; i < 20; i++) {
             // Get a Nashorn script engine with persistent code caching enabled.
             // Note that this option will only work with JDK 8u20 or later.
-            final ScriptEngine engine = new NashornScriptEngineFactory().getScriptEngine("-pcc");
+            final ScriptEngine engine = new NashornScriptEngineFactory().getScriptEngine(new String[] {"-pcc"});
             evaluate(engine, lodash);
         }
     }

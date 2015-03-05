@@ -51,7 +51,7 @@ public class OptimisticTypeCacheDemo {
         for (int i = 0; i < 20; i++) {
             // Get a Nashorn script engine with optimistic types enabled.
             // Note that this option will only work with JDK 8u40 or later.
-            final ScriptEngine engine = new NashornScriptEngineFactory().getScriptEngine("-ot=true");
+            final ScriptEngine engine = new NashornScriptEngineFactory().getScriptEngine(new String[] {"-ot=true"});
             evaluate(engine, lodash);
         }
     }
