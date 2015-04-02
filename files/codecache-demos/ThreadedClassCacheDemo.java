@@ -72,7 +72,7 @@ public class ThreadedClassCacheDemo {
                 }
                 System.out.println("Evaluated " + url + " in " + (System.currentTimeMillis() - start) + " milliseconds");
             }
-        }.run();
+        }.start();
     }
 
 }
